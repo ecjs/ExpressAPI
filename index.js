@@ -1,6 +1,6 @@
 var express = require('express');
 var mongoose = require('mongoose');
-mongoose.connect(process.env.MONGOOSEDB);
+mongoose.connect(process.env.MONGODB);
 var bodyParser = require('body-parser');
 
 var app = express();
